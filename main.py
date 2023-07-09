@@ -7,8 +7,13 @@ import os
 import re
 import emoji
 import time
+import sys
+from datetime import datetime
 
 load_dotenv()
+
+sys.stdout.reconfigure(encoding='utf-8')
+
 
 CLIENT_SECRET_FILE = 'client_secret_file.json'  # Get this from GCP
 API_NAME = 'tasks'
@@ -36,14 +41,36 @@ def extract_list_id_from_url(url):
 
 def construct_request_body(task):
     try:
-        request_body = task
+        request_body = {
+            'title': task['title']
+        }
+
+        # Include due date if available
+        if 'due' in task:
+            request_body['due'] = task['due']
+
+        # Include task_type if available
+        if 'task_type' in task:
+            request_body['task_type'] = task['task_type']
+
+        # Include notes if available
+        if 'notes' in task:
+            request_body['notes'] = task['notes']
+
+        # Include links or attachments if available
+        if 'links' in task:
+            request_body['links'] = task['links']
+
         return request_body
-    except Exception:
+    except Exception as e:
+        print(f"Erreur lors de la construction du corps de la requête pour la tâche : {task['title']}")
+        print(e)
         return None
 
 # Insert tasks into their respective lists
 for task_list in tasks:
     task_list_id = extract_list_id_from_url(task_list['selfLink'])
+    print(f"Pour la Liste {task_list['title']} : {task_list_id}")
 
     # Find the corresponding list in the destination account
     matched_list = next(
@@ -61,8 +88,23 @@ for task_list in tasks:
 
     # Insert the tasks into the corresponding list
     for task in task_list['items']:
-        service.tasks().insert(tasklist=task_list_id, body=construct_request_body(task)).execute()
-        print(f"Tache {task['title']} ajoutée à la liste {task_list['title']}".encode('utf-8'))
-        time.sleep(3) # Sleep for 3 seconds to avoid rate limiting
+        parent_id = task.get('parent')
+        if parent_id:
+            parent_task = next(
+                (t for t in task_list['items'] if t['id'] == parent_id),
+                None
+            )
+            if not parent_task:
+                print(f"La tâche parente pour la tâche {task['title']} n'existe pas. La tâche sera ignorée.")
+                continue  # Skip the task if the parent task doesn't exist
+
+        request_body = construct_request_body(task)
+        if request_body:
+            if parent_id:
+                request_body['parent'] = parent_task['id']
+
+            service.tasks().insert(tasklist=task_list_id, body=request_body).execute()
+            print(f"Tâche {task['title']} ajoutée à la liste {task_list['title']}")
+            time.sleep(3)  # Sleep for 3 seconds to avoid rate limiting
 
 print("END")

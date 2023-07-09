@@ -1,0 +1,311 @@
+[
+    {
+        "kind": "tasks#tasks",
+        "id": "MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow",
+        "title": "🧔🏽Mes tâches",
+        "updated": "2023-07-09T01:14:24.349039Z",
+        "items": [
+            {
+                "due": "2023-07-09T15:30:00Z",
+                "kind": "tasks#task",
+                "created": "2023-07-03T21:57:43.392099Z",
+                "id": "REw4eGpjOUw3Sno3aE9QUw",
+                "title": "🖖🏽Ecrire un message d'adieu",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-07-08T23:44:11.331599Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow/tasks/REw4eGpjOUw3Sno3aE9QUw",
+                "status": "needsAction"
+            },
+            {
+                "due": "2021-07-22T23:00:00Z",
+                "kind": "tasks#task",
+                "created": "2021-07-23T02:29:37.526Z",
+                "id": "YzAxNG5zZzBkY0dCZXBaYQ",
+                "completed": "2021-08-11T16:00:58.482Z",
+                "title": "Call amine sel3a",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-06-19T00:41:00.355503Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow/tasks/YzAxNG5zZzBkY0dCZXBaYQ",
+                "status": "completed"
+            },
+            {
+                "notes": "Check whith Rami",
+                "kind": "tasks#task",
+                "created": "2023-04-25T17:01:46.570363Z",
+                "star_time": "2023-06-16T10:41:32.260Z",
+                "completed": "2023-06-17T09:23:27.681Z",
+                "title": "Changer puce au nom de. Marouan",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow/tasks/cVQ4MEJNVGhmeFZ2aUhjZA",
+                "starred": true,
+                "due": "2023-06-16T15:00:00Z",
+                "id": "cVQ4MEJNVGhmeFZ2aUhjZA",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-06-17T09:23:28.166207Z",
+                "status": "completed"
+            },
+            {
+                "notes": "Fiole de 30 rendre le reste à la maison buses zt bouchons restants \n\nfioles de 100 x 30, déjà be3 menhom ta5lit mais c'est pas grave",
+                "due": "2023-06-18T18:30:00Z",
+                "kind": "tasks#task",
+                "created": "2023-06-11T23:57:02.218370Z",
+                "id": "eEgtRE1pQS1CSF9VQm5aQQ",
+                "completed": "2023-06-16T07:34:01.097Z",
+                "title": "Regler les Affaire avec Marwen",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-06-16T07:34:05.450895Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow/tasks/eEgtRE1pQS1CSF9VQm5aQQ",
+                "status": "completed"
+            },
+            {
+                "notes": "6 x voodoo 6mg \n6 × hazel dream 6mg \n11 x mojito 3mg\n11 yakuza 3mg \n11 fm dark 3mg\n6 nanas treat 6mg\n30 x fiole de 100ml\n50 x fiole de 30ml mdabsine de 7assen!\nJuste sans ticket",
+                "starred": true,
+                "kind": "tasks#task",
+                "created": "2023-06-12T23:47:01.097256Z",
+                "star_time": "2023-06-13T00:25:42.401Z",
+                "id": "TW5zR2RvNThaQ0lSTEVvRw",
+                "completed": "2023-06-16T06:05:41.585Z",
+                "title": "Ajouter au stock les liquide",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-06-16T06:05:46.505743Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow/tasks/TW5zR2RvNThaQ0lSTEVvRw",
+                "status": "completed"
+            }
+        ],
+        "selfLink": "https://www.googleapis.com/tasks/v1/users/@me/lists/MTU1MzQ3NDQ3MTAwMTg4NjYzNTY6MDow"
+    },
+    {
+        "kind": "tasks#tasks",
+        "id": "bGhKWGpmWWt5aFNxeGV0aw",
+        "title": "👨🏽‍🏫ESPRIT",
+        "updated": "2023-07-09T00:02:12.500719Z",
+        "items": [
+            {
+                "notes": "L'encadrant de Anas Ourghem\n29 900 352",
+                "due": "2023-07-10T08:30:00Z",
+                "kind": "tasks#task",
+                "created": "2023-07-09T00:02:12.480976Z",
+                "id": "dVFhRlgtSENodnZ5Wk9pTw",
+                "title": "📲Contacter KHALED BEN JANNET Vermeg",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-07-09T00:02:12.500719Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/dVFhRlgtSENodnZ5Wk9pTw",
+                "status": "needsAction"
+            },
+            {
+                "notes": "Problème avec son entreprise\nj'ai le Numéro de téléphone je contact Khaled ben Jannet le lundi 10/07",
+                "due": "2023-07-31T07:30:00Z",
+                "kind": "tasks#task",
+                "created": "2023-06-27T22:35:26.080446Z",
+                "links": [
+                    {
+                        "link": "https://mail.google.com/mail/#all/188feff40e701b07",
+                        "type": "email",
+                        "desc": "Rapport Avancement"
+                    }
+                ],
+                "id": "VEFHbXYxaDc2LUZndkNIWA",
+                "completed": "2023-07-08T23:50:55.742Z",
+                "title": "Rapport Avancement, Anas Ouaghrem",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-07-08T23:50:57.370143Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/VEFHbXYxaDc2LUZndkNIWA",
+                "status": "completed"
+            },
+            {
+                "notes": "Application ESPRIT CORRECTOR",
+                "due": "2023-07-09T16:00:00Z",
+                "kind": "tasks#task",
+                "created": "2023-06-11T23:33:17.425198Z",
+                "links": [
+                    {
+                        "link": "https://mail.google.com/mail/#all/18890ff3b582ce24",
+                        "type": "email",
+                        "desc": "Prix d'Innovation pédagogique"
+                    }
+                ],
+                "id": "OXg3Wnk3dGRaSTlfbDlhbg",
+                "title": "🤞🏽Remplir Prix d'Innovation pédagogique",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2023-07-08T23:44:31.891823Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/OXg3Wnk3dGRaSTlfbDlhbg",
+                "status": "needsAction"
+            },
+            {
+                "kind": "tasks#task",
+                "created": "2022-09-08T20:28:01.605648Z",
+                "id": "dU9HZzJHMS1wVWZ6em54Yw",
+                "completed": "2022-09-23T10:11:56.448Z",
+                "title": "Envoyer note borhen a salma",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-09-23T10:11:58.057599Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/dU9HZzJHMS1wVWZ6em54Yw",
+                "status": "completed"
+            },
+            {
+                "due": "2022-09-21T09:00:00Z",
+                "kind": "tasks#task",
+                "created": "2022-09-08T20:39:34.304681Z",
+                "id": "NmpBWnlrZlp1MlNzU05lZA",
+                "completed": "2022-09-21T12:03:31.636Z",
+                "title": "Le 21 salma hajjem reprend,planifier 2eme restitution bencheikh amin",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-09-21T12:03:33.179807Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/NmpBWnlrZlp1MlNzU05lZA",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:41:07.422275Z",
+                "id": "QzNZSXI2S2xhdFBONTBRUw",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Jeudi 8.30 10.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:13.419791Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/QzNZSXI2S2xhdFBONTBRUw",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:40:51.264847Z",
+                "id": "S1ZsWjI0Vk5CR1BuLXpoVg",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Lundi 8.30 10.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:13.097311Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/S1ZsWjI0Vk5CR1BuLXpoVg",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:40:44.748851Z",
+                "id": "T2lueU5QZllxRDRxcHhqSw",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "-------(",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:12.798207Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/T2lueU5QZllxRDRxcHhqSw",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:40:03.040689Z",
+                "id": "c0xSbDI2NkRxSVZkSGtJVg",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Vendredi 12.30 14.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:12.493023Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/c0xSbDI2NkRxSVZkSGtJVg",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:39:51.341189Z",
+                "id": "QUpTRkNvZHREUnNSeTlxSA",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Jeudi 8.30 10.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:12.044143Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/QUpTRkNvZHREUnNSeTlxSA",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:36:01.194381Z",
+                "id": "V1ByRHB5SHVwbEZJT0xYTQ",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Mercredi 12.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:11.732399Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/V1ByRHB5SHVwbEZJT0xYTQ",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:35:42.476604Z",
+                "id": "ZjFaQ2V0NzNnbHpzUFpDdg",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Mardi 8.30 10.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:11.427455Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/ZjFaQ2V0NzNnbHpzUFpDdg",
+                "status": "completed"
+            },
+            {
+                "parent": "RWlkTGRtbGlIWVNOanFsbg",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:35:11.077035Z",
+                "id": "OE55SHU3UDRBODl1MXlnOA",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "Lundi 12.30 14.30",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:11.123471Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/OE55SHU3UDRBODl1MXlnOA",
+                "status": "completed"
+            },
+            {
+                "due": "2022-05-23T07:00:00Z",
+                "kind": "tasks#task",
+                "created": "2022-05-21T15:35:05.442764Z",
+                "id": "RWlkTGRtbGlIWVNOanFsbg",
+                "completed": "2022-05-29T18:54:03Z",
+                "title": "3assa",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-29T18:54:10.816959Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/RWlkTGRtbGlIWVNOanFsbg",
+                "status": "completed"
+            },
+            {
+                "due": "2022-05-26T09:10:00Z",
+                "kind": "tasks#task",
+                "created": "2022-05-25T21:09:35.894993Z",
+                "id": "U3J6MWdudkFHRUJWOUZXZA",
+                "completed": "2022-05-26T09:09:26.984Z",
+                "title": "Aller voir 3ayda pour assurance.",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-26T09:09:28.615039Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/U3J6MWdudkFHRUJWOUZXZA",
+                "status": "completed"
+            },
+            {
+                "due": "2022-05-22T09:00:00Z",
+                "kind": "tasks#task",
+                "created": "2022-05-21T23:37:21.584177Z",
+                "id": "blgweXVkS3R2emJ4WGlFVw",
+                "completed": "2022-05-24T09:43:57.689Z",
+                "title": "Kammal sob notet el pim",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2022-05-24T09:43:58.771039Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/blgweXVkS3R2emJ4WGlFVw",
+                "status": "completed"
+            },
+            {
+                "notes": "Call yosra jmal",
+                "due": "2021-11-10T10:59:00Z",
+                "kind": "tasks#task",
+                "created": "2021-11-09T14:15:58.784542Z",
+                "links": [
+                    {
+                        "link": "https://mail.google.com/mail/#all/17d050b49c7a02a8",
+                        "type": "email",
+                        "desc": "[PIDEV 4SE-2021/2... - @wadii.chamakhi@esprit.tn Rappel suiv..."
+                    }
+                ],
+                "id": "czFHS3YxZTZYRjl5M1pKQw",
+                "completed": "2021-11-14T14:04:47Z",
+                "title": "[PIDEV 4SE-2021/2... - @wadii.chamakhi@esprit.tn Rappel suiv...",
+                "task_type": "PERSONAL_TASK",
+                "updated": "2021-11-14T14:05:09.792703Z",
+                "selfLink": "https://www.googleapis.com/tasks/v1/lists/bGhKWGpmWWt5aFNxeGV0aw/tasks/czFHS3YxZTZYRjl5M1pKQw",
+                "status": "completed"
+            }
+        ],
+        "selfLink": "https://www.googleapis.com/tasks/v1/users/@me/lists/bGhKWGpmWWt5aFNxeGV0aw"
+    }
+]
