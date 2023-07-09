@@ -6,6 +6,7 @@ import json
 import os
 import re
 import emoji
+import time
 
 load_dotenv()
 
@@ -62,5 +63,6 @@ for task_list in tasks:
     for task in task_list['items']:
         service.tasks().insert(tasklist=task_list_id, body=construct_request_body(task)).execute()
         print(f"Tache {task['title']} ajoutée à la liste {task_list['title']}".encode('utf-8'))
+        time.sleep(3) # Sleep for 3 seconds to avoid rate limiting
 
 print("END")
