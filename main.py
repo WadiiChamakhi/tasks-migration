@@ -8,7 +8,6 @@ import re
 import emoji
 import time
 import sys
-from datetime import datetime
 
 load_dotenv()
 
@@ -41,9 +40,48 @@ def extract_list_id_from_url(url):
 
 def construct_request_body(task):
     try:
+
         request_body = {
-            'title': task['title']
+            'title': "No title"
         }
+        
+        if 'title' in task:
+            request_body['title'] = task['title']
+
+        if 'kind' in task:
+            request_body['kind'] = task['kind']
+
+        if 'id' in task:
+            request_body['id'] = task['id']
+
+        if 'etag' in task:
+            request_body['etag'] = task['etag']
+
+        if 'updated' in task:
+            request_body['updated'] = task['updated']
+
+
+        if 'selfLink' in task:
+            request_body['selfLink'] = task['selfLink']
+
+
+        if 'position' in task:
+            request_body['position'] = task['position']
+        
+        if 'status' in task:
+            request_body['status'] = task['status']
+
+        
+        if 'completed' in task:
+            request_body['completed'] = task['completed']
+
+        if 'deleted' in task:
+            request_body['deleted'] = task['deleted']
+
+
+        if 'hidden' in task:
+            request_body['hidden'] = task['hidden']
+
 
         # Include due date if available
         if 'due' in task:
@@ -66,6 +104,13 @@ def construct_request_body(task):
         print(f"Erreur lors de la construction du corps de la requête pour la tâche : {task['title']}")
         print(e)
         return None
+
+total_tasks = 0  # Le nombre total de tâches
+added_tasks = 0  # Le nombre de tâches ajoutées
+
+# Compter le nombre total de tâches
+for task_list in tasks:
+    total_tasks += len(task_list['items'])
 
 # Insert tasks into their respective lists
 for task_list in tasks:
@@ -104,7 +149,12 @@ for task_list in tasks:
                 request_body['parent'] = parent_task['id']
 
             service.tasks().insert(tasklist=task_list_id, body=request_body).execute()
+            added_tasks += 1
+
+            # Calculer le pourcentage de tâches ajoutées
+            percentage = (added_tasks / total_tasks) * 100
             print(f"Tâche {task['title']} ajoutée à la liste {task_list['title']}")
+            print(f"Tâches : {added_tasks}/{total_tasks} - {percentage:.2f}%")
             time.sleep(3)  # Sleep for 3 seconds to avoid rate limiting
 
 print("END")
